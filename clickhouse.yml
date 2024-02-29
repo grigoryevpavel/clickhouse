@@ -1,0 +1,4 @@
+- name: Install clickhouse
+  hosts: clickhouse
+  roles:
+    - role_clickhouse
